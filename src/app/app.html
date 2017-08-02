@@ -1,12 +1,12 @@
 <ion-menu [content]="content">
-  <ion-header>
-    <ion-toolbar>
+  <ion-header no-border>
+    <ion-toolbar class="sidemenu">
       <ion-title>Menu</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <ion-content>
-    <ion-list>
+  <ion-content class="no-scroll" class="sidemenu">
+    <ion-list no-lines>
       <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
         {{p.title}}
       </button>

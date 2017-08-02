@@ -1,3 +1,98 @@
 page-home {
-
+}
+.toolbar-title-md {
+  color:white;
+}
+.toolbar-title-ios{
+  color:white;
+}
+.toolbar-background {
+  background-color: #e74c3c;
+}
+.sidemenu .toolbar-background {
+  background-color: #34495e;
+}
+.sidemenu .toolbar-title {
+  color: #ecf0f1;
+}
+.sidemenu .scroll-content{
+  background-color: #34495e;
+  overflow: hidden;
+}
+.scroll-content {
+  background-color: #f1c40f;
+}
+.mpage .scroll-content{
+     overflow: hidden;
+}
+.sidemenu .item {
+  background-color: #34495e;
+  color:white;
+}
+.date-bar{
+  background-color: #e74c3c;
+  margin-top: -16px;
+  margin-left: -20px;
+  margin-right: -20px;
+  height:150px;
+  box-shadow:  0 2px 5px 0 rgba(0, 0, 0, 0.26) !important;
+}
+.date-bar-month {
+  text-align: center;
+  font-size: 50pt;
+  color:white;
+  margin-top: -36px;
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+.date-bar-year {
+  text-align: center;
+  color: white;
+}
+.show-details{
+  text-align: center;
+  margin-top: -5px;
+  color: white;
+}
+.expanding-button {
+  text-align: center;
+  margin-top: -28px;
+}
+.calendar-list {
+  padding-top: 10px;
+  position: absolute;
+   top: 152px;
+   bottom: -30px;
+   left: 0px;
+   right: -20px;
+   overflow: auto;
+   text-align: center;
+}
+.calendar-list .calendar-list-item {
+  height: 80px;
+  width: 300px;
+  background-color: white;
+  margin: 20px 20px 20px 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+.item-activities {
+  margin-right: 0px;
+}
+}
+.item-date {
+  text-align: center;
+}
+.item-day {
+  font-size: 24pt;
+  font-weight: bold;
+  color: #e74c3c;
+}
+.item-IO {
+  text-align: center;
+}
+.item-intake {
+  color:green;
+}
+.item-output {
+  color: red;
 }

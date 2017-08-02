@@ -1,13 +1,13 @@
 <ion-header>
   <ion-navbar>
-    <button ion-button menuToggle>
+    <button ion-button color="light" menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>List</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content>
+<ion-content class="no-scroll">
   <ion-list>
     <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
       <ion-icon [name]="item.icon" item-left></ion-icon>
