@@ -1,0 +1,32 @@
+page-detail {
+.scroll-content{
+  background-color: #e74c3c;
+  overflow: hidden;
+}
+.calendar-list
+{
+  top: 0px;
+  padding: 0 0 0 0;
+}
+.calendar-list .calendar-list-item {
+  height: 200px;
+  padding-left: 0px;
+  margin-top: 20px;
+  .item-date{
+    margin-top: -120px;
+    margin-left: 10px;
+  }
+  .item-IO {
+    position: absolute;
+    font-size: 20pt;
+    margin-left: -140px;
+    margin-top: -30px;
+  }
+  .icon-detail {
+    position: absolute;
+    font-size: 20px;
+    margin-top: 6px;
+    margin-left: -160px;
+  }
+}
+}

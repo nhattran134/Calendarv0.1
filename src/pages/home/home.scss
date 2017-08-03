@@ -1,5 +1,6 @@
 page-home {
 }
+/*Toolbar format*/
 .toolbar-title-md {
   color:white;
 }
@@ -9,26 +10,30 @@ page-home {
 .toolbar-background {
   background-color: #e74c3c;
 }
+/*Toolbar format for side menu*/
 .sidemenu .toolbar-background {
   background-color: #34495e;
 }
 .sidemenu .toolbar-title {
   color: #ecf0f1;
 }
+/*side menu background and scrollbar removal*/
 .sidemenu .scroll-content{
   background-color: #34495e;
   overflow: hidden;
 }
+.sidemenu .item {
+  background-color: #34495e;
+  color:white;
+}
+/*background color and remove the scrollbar*/
 .scroll-content {
   background-color: #f1c40f;
 }
 .mpage .scroll-content{
      overflow: hidden;
 }
-.sidemenu .item {
-  background-color: #34495e;
-  color:white;
-}
+/*Large div at the top*/
 .date-bar{
   background-color: #e74c3c;
   margin-top: -16px;
@@ -58,6 +63,7 @@ page-home {
   text-align: center;
   margin-top: -28px;
 }
+/*calendar list*/
 .calendar-list {
   padding-top: 10px;
   position: absolute;
@@ -83,7 +89,7 @@ page-home {
   text-align: center;
 }
 .item-day {
-  font-size: 24pt;
+  font-size: 30pt;
   font-weight: bold;
   color: #e74c3c;
 }

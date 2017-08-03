@@ -24,10 +24,12 @@ export class HomePage {
   public last_of_week;
   public start;
   public end;
+  //FEED the list with date data
   ngOnInit() {
     this.current_iso = this.today.toISOString();
     this.current_date = this.current_iso.substring(0,10);
     this.current_year = this.current_iso.substring(0,4);
+    //get first and last day of the week to print the current week into the list
     var day = this.d.getDate(),
         diff = this.d.getDate() - day ;
      this.first_of_week = new Date(this.d.setDate(diff));
@@ -37,8 +39,10 @@ export class HomePage {
      this.items = [];
      this.activities = ['baseball', 'bicycle', 'body', 'football', 'basketball', 'plane',
      'american-football', 'boat'];
+     //Dummy data for calories intake and out put
      this.intakes = [1232, 2323, 2312, 4122, 2123, 3123, 8188, 1546];
      this.outputs = [1232, 2323, 2312, 4122, 2123, 3123, 8188, 1546];
+     //push data into the list
      for (let i = this.start; i < this.end; i=new Date(i.setDate(i.getDate()+1))) {
        this.items.push({
          date: i.toISOString(),
